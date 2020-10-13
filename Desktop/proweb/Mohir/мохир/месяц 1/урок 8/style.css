@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    /* font-family: 'Roboto', sans-serif;
+    font-weight: 100;    */
+}
+
+header {
+    background: url(images/header-bg.jpg) -350px center / cover no-repeat;
+    /* background-repeat: no-repeat;
+    background-size: cover;
+    background-position: -400px center; */
+    height: 680px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ 
+}
+
+nav {
+    display: flex;
+    width: 1110px;    
+    justify-content: space-between;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+}
+
+.menu__link {
+    font-weight: 700;
+    font-size: 18px;
+    padding: 20px;
+    color: #4d4d4d;    
+    display: block;
+    text-decoration: none;
+    transition: background 0.5s ;
+}
+
+.menu__link:hover{
+    background: rgb(193, 195, 39);    
+    color: #f7f7f7;
+
+}
+
+.logo {
+    margin: 10px ;
+}
+
+.header-title {
+    width: 1110px;
+    margin-top: 185px;
+}
+
+.header-title > h1 {
+    font-size: 100px;
+    color: rgb(193, 195, 39);
+    font-weight: 700;
+}
+
+
+.header-title > p {
+    font-size: 18px;
+    color: #4d4d4d;  
+} 
+
+.header-title  span{
+    color: red;
+    font-weight: 800;
+}
+
+main {
+    margin: 90px auto 90px 140px;
+    width: 1110px;
+    height: 700px;
+    display: flex;
+}
+
+.block_1  {
+    width: 540px;
+    color: #4d4d4d; 
+}
+
+.block_1 img {
+    border-radius: 10px;
+}
+
+.block_1 h3 {
+    margin: 10px 0;
+    color: black;
+}
+
+.block_2 {
+    width: 540px;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.item {
+    color: #4d4d4d; 
+    border: rgb(176, 176, 176) solid 3px;
+    font-size: 16px;
+    display: flex;
+/*     margin-top: 20px; */
+    padding: 15px 0 15px 25px;
+}
+
+.info {
+    margin-left: 30px;
+}
+
+.item img {
+    height: 120px;
+    border-radius: 100%;
+    border: 5px solid rgb(193, 195, 39);
+}
+
+.item h3 {
+    margin-bottom: 10px;
+    color: black;
+    font-size: 20px;
+}

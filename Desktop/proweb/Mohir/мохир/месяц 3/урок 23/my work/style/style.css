@@ -1,0 +1,139 @@
+@import "fonts.css";
+
+/* ROOT START */
+:root {
+    --fBase: "MS";
+    --fAlt: "PS";
+    --grey: #282929;
+    --dark: #1f2020;
+    --yellow: #ffcb02;
+    --yellowDark: #d2a90b;
+}
+
+body {
+    font-family: var(--fAlt);
+    background: var(--grey);
+}
+
+
+a:hover {
+    text-decoration: none;
+}
+
+.logo {
+    font-size: 26px;
+    font-family: var(--fAlt);
+    text-transform: uppercase;
+    color: var(--white);
+    border: 1px solid;
+    border-image: linear-gradient(130deg, var(--white), var(--white), var(--yellow)) 1;
+    line-height: 20px;
+    padding: 7px 14px;
+}
+
+.logo:hover {
+    color: var(--white);
+}
+
+.logo-span {
+    color: var(--yellow);
+}
+
+
+
+
+
+
+/* ROOT END */
+/* ================================================= */
+/* HEADER START */
+
+.navbar {
+    padding: 23px 0;
+    background: var(--dark);
+}
+
+.menu__link {
+    margin-left: 53px;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: var(--white);
+    font-family: var(--fAlt);
+
+}
+
+.menu__link:hover {
+    color: var(--yellow);
+}
+
+
+.navbar-toggler i {
+    color: var(--yellow);
+}
+
+.dropdown-item {
+    color: var(--grey);
+}
+
+.dropdown-divider {
+    border-top: 1px solid var(--grey);
+}
+
+.header__info {
+    background: url(../images/header_img_bg.jpg) center center/ cover;
+    background-attachment: fixed;
+    color: var(--white) ;
+    font-family: var(--fAlt);
+
+}
+
+.header__title {
+    text-transform: uppercase;
+    font-size: 60px;
+    line-height: 72px;
+    margin-bottom: 36px;
+}
+
+.header__description {
+    font-size: 22px;
+    line-height: 27px;
+    text-align: justify;
+}
+
+
+
+
+
+
+
+/* HEADER END */
+/* ================================================= */
+/* MAIN START */
+
+
+
+
+
+
+
+
+
+
+/* MAIN END */
+/* ================================================= */
+/* FOOTER START */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* FOOTER END */

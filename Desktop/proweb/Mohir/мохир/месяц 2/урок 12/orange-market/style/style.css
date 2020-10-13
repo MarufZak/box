@@ -1,0 +1,145 @@
+@import "fonts.css";
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "MR";
+    /* outline: 1px solid red; */
+    box-sizing: border-box;
+}
+
+p {
+    font-family: "MB";
+}
+
+.container {
+    max-width: 1110px;
+    margin: auto;
+    width: 100%;
+
+}
+
+.row {
+    display: flex;
+}
+
+.btn {
+    background: #dd4400;
+    max-width: 200px;
+    width: 100%;
+    padding: 15px 0;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+
+
+.menu {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu__list {
+    list-style: none;
+}
+
+.menu__link {
+    text-decoration: none;
+    color: #4e4e4e;
+    font-size: 16px;
+    margin-left: 34px;
+    transition: 0.5s;
+}
+
+.menu__link:hover{
+    color: #dd4400;
+
+}
+
+.menu__item:first-of-type .menu__link{
+    margin-left: 0;
+}
+
+.menu__img {
+    margin-right: 22px;
+}
+
+.menu__logo {
+    color: #dd4400;
+    font-size: 16px;
+    text-decoration: none;
+    align-items: center;
+}
+
+nav {
+    box-shadow:  3px 3px 7px hsla(25, 66%, 14%, 0.35);
+    padding: 7px 0;
+    position: relative;
+    
+}
+
+.header-img {
+    width: 100%;
+    object-fit: cover;
+    height: 500px;
+}
+
+.product {
+    max-width: 255px;
+    width: 100%;
+    height: 350px;
+    padding: 5px 21px 26px 35px;
+    display: flex;
+    -direction: column;flex
+    align-items: center;
+    text-align: center;
+    box-shadow: 0 0 15px #eadcd6;
+}
+
+.products {
+    justify-content: space-between;
+    margin: 50px 0 100px 0;
+}
+
+.product__title {
+    /* margin: 45px 0 50px 0; */
+    font-family: "MB";
+    color: #dd4400;
+    font-size: 18px;
+    flex-grow: 1;
+    max-width: 166px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    line-height: 27px;
+}
+
+.product__img {
+    height: 144px;
+    max-width: 200px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product__img::before {
+    content: '';
+    max-width: 200px;
+    width: 100%;
+    height: 1px;
+    background:linear-gradient(to right, #ffffff,
+    #dd4400, #ffffff);
+    display: block;
+
+}
+
+.product__img::after {
+    content: '';
+
+}

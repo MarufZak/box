@@ -1,0 +1,19 @@
+* {
+    text-align: center;
+}
+body {
+    background: url(https://avatanplus.com/files/resources/original/5d1092c7cc73f16b88bd5c9d.jpg);
+    background-size: cover;
+}
+fieldset {
+    width: 30%;
+    margin: auto;
+    background: url(https://i1.sndcdn.com/avatars-000145383988-dhozxh-t500x500.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+}
+
+p {
+    margin: 30px 0 0 0;
+}

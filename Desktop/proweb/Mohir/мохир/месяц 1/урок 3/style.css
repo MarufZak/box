@@ -1,0 +1,55 @@
+/*
+Виды селекторов:
+1) Тег - h1, p, a
+2) id - #
+3) class
+*/
+
+/*
+селектор {
+    свойство: значение;  
+}
+*/
+
+/*
+ * - подключение ко всем тегам по странице
+*/
+
+
+* {
+    margin: 0 0 0 0; /* внешний отступ */
+    padding: 0 0 0 0; /* внутренний отступ */
+}
+
+p {
+    background: brown; /* задний фон */
+    color: white; /* цвет текста */
+    margin: 10px 0;
+    padding: 20px;
+}
+
+#text {
+    background: black;
+    width: 500px; /* ширина тега */
+    margin: auto;
+}
+
+.content {
+    height: 200px; /* высота тега */;
+    background: url(fon.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+img {
+width: 400px;
+height: 400px;
+object-fit: cover;
+border: 15px solid black;
+border-radius: 50% 40% 30% 20%;
+}
+
+body {
+    background: linear-gradient(to bottom,red, orange,yellow , green,blue );
+    text-align: center;
+}

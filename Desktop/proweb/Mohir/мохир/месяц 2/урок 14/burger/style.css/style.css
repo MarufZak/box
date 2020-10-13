@@ -1,0 +1,31 @@
+@import "font.css";
+/* ROOT start */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: var(--fontFamily);
+    color: var(--green);
+}
+
+h1{
+    color: var(--grey);
+}
+
+:root {
+    --green: #69cf17;
+    --grey: #7a7a7a;
+    --fontFamily:
+}
+
+/* ROOT end */
+/* =================== */
+/* HEADER start */
+/* HEADER end */
+/* =================== */
+/* MAIN start */
+/* MAIN end */
+/* =================== */
+/* FOOTER start */
+/* FOOTER end */
+/* =================== */

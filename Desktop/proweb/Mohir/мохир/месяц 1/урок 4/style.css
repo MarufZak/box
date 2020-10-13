@@ -1,0 +1,52 @@
+ * {
+     margin: 0;
+     padding: 0;
+ }
+
+ .box {
+     width: 800px;
+     height: 1100px;
+     border: 10px solid black;
+     margin: auto;
+     display: flex; /* контроль дочерних тегов */
+     /* flex-wrap: wrap-reverse; - разворавчивает ось Y  на 180 градусов */
+     flex-wrap: wrap ; /* разрешение перехода дочерних тегов на следующую строку */
+     /* flex-direction: row-reverse; - разворачивает ось X на 180 градусов */
+    
+
+
+     /* justify-content  - выравнивает по оси X */
+     /* align-items  - выравнивает по оси Y */
+
+     /* justify-content: flex-start; - перемещает в начало оси X */
+     /* justify-content: flex-end; - перемещает в конец оси X */
+    /* justify-content: center; -  перемещает в центр оси X */
+    /* justify-content: space-between;  -  первый и последний блок в край родителя и одинаковый отступ между блоками */
+    /* justify-content: space-evenly; - от края родителя и между блоками одинаковй отступ */
+    /* justify-content: space-around; - от края родителя до первого и последнего блока равен половине отступа между блоками */
+
+
+    /* align-items: flex-start; - перемещает в начало оси Y */
+    /* align-items: flex-end ; - перемещает в конец оси Y */
+    /* align-items: center; - выравнивает по центру оси Y */
+    /* align-items: stretch; - элемент без высоты заполняет всю ось Y */
+    
+
+    /* align-content - выравнивает строки по оси Y */
+    /* align-content: flex-start; - перемещает строки в начало оси Y */
+    /* align-content: flex-end;  - перемещает строки в конец оси Y */
+    /* align-content: center; - выравнивает строки по оси Y */
+    /* align-content: space-between; - первая и последняя строка в край родителя и одинаковй отступ между стрками */
+    /* align-content: space-evenly; - от края родителя и между строками одинаковый отступ */
+    /* align-content: space-around; - от края до первой и последней строки отступ равен половине отступа между строками */
+    /* align-content: stretch; - выделяет одинаковую высоту для каждой сторки */
+
+    
+
+}
+
+ .item {
+     width: 200px;
+     height: 200px;
+     border: 5px solid black; 
+ }

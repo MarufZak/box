@@ -1,0 +1,27 @@
+@media(max-width:767px) {
+    .menu__link {
+        margin-left: 0;
+        display: block;
+        margin-top: 10px;
+    }
+
+    .navbar-expand-md>.container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .header__title {
+        font-size: 48px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .tabs__info {
+        margin-top: -50px;
+    }
+}
+
+@media(max-width:575px) {
+    .navbar {
+        padding: 0 15px;
+    }
+}

@@ -1,0 +1,22 @@
+body{
+    margin: auto;
+    text-align: center;
+    background: url(../fon.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+fieldset{
+    margin: auto;
+    background: url(download.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 500px;
+}
+
+p{
+    margin: 20px 0 0 0;
+}
+
+
+

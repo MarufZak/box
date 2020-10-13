@@ -1,0 +1,281 @@
+@import "font.css";
+/* ROOT start */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: var(--fontFamily);
+    color: var(--grey);
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    /* outline: 1px solid red; */
+
+}
+
+:root {
+    --green: #69cf17;
+    --grey: #dedede;
+    --grey_dark: #7a7a7a;
+    --grey_bd: #4d4d4d ;
+    --fontFamily: "RW";
+    --green_75: hsla(93, 80%, 45%, 0.75);
+    --green_90: hsla(93, 80%, 45%, 0.90);
+
+    --col-1: calc(100%/12);
+    --col-2: calc(100%/12*2);
+    --col-3: calc(100%/12*3);
+    --col-4: calc(100%/12*4);
+    --col-5: calc(100%/12*5);
+    --col-6: calc(100%/12*6);
+    --col-7: calc(100%/12*7);
+    --col-8: calc(100%/12*8);
+    --col-9: calc(100%/12*9);
+    --col-10: calc(100%/12*10);
+    --col-11: calc(100%/12*11);
+    --col-12: calc(100%);
+    --logo_bg: #4e9f0d;
+    --logo_bd: #62be19;
+    --white: #ffffff;
+    --dark: #060002;
+}
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    margin: auto;
+    padding: 0 15px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+
+.col {
+    width: auto;
+    padding: 0 15px;
+}
+
+.col-1 {
+    width: var(--col-1);
+    padding: 0 15px;
+}
+
+.col-2 {
+    width: var(--col-2);
+    padding: 0 15px;
+}
+
+.col-3 {
+    width: var(--col-3);
+    padding: 0 15px;
+}
+
+.col-4 {
+    width: var(--col-4);
+    padding: 0 15px;
+}
+
+.col-5 {
+    width: var(--col-5);
+    padding: 0 15px;
+}
+
+.col-6 {
+    width: var(--col-6);
+    padding: 0 15px;
+}
+
+.col-7 {
+    width: var(--col-7);
+    padding: 0 15px;
+}
+
+.col-8 {
+    width: var(--col-8);
+    padding: 0 15px;
+}
+
+.col-9 {
+    width: var(--col-9);
+    padding: 0 15px;
+}
+
+.col-10 {
+    width: var(--col-10);
+    padding: 0 15px;
+}
+
+.col-11 {
+    width: var(--col-11);
+    padding: 0 15px;
+}
+
+.col-12 {
+    width: var(--col-12);
+    padding: 0 15px;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.align-items-start{
+    align-items: flex-start;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.flex-grow-1 {
+    flex-grow: 1;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.mh-100 {
+    min-height: 100vh;
+}
+
+
+
+/* ROOT end */
+/* =================== */
+/* HEADER start */
+
+.header {
+    background: url(../images/header_bg.jpg) no-repeat center center/ cover;
+    background-attachment: fixed;
+}
+
+.logo {
+    background: var(--logo_bg);
+    border: 3px solid var(--logo_bd);
+    border-radius: 5px;
+    color: var(--white);
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 8px 14px;
+    line-height: 17px;
+    box-shadow: inset 5px 5px 5px -5px rgba(30, 30, 30, 0.15)
+}
+
+.header-nav__link {
+    display: flex;
+    color: var(--green);
+    font-size: 20px;
+    font-weight: 300;
+    padding: 38px 26px 29px 26px;
+    transition: background 0.5s, color 0.5s;
+}
+
+.header-nav__link:hover {
+    background: var(--green_75);
+    color: var(--white);
+}
+
+.header-nav__link_padding {
+    padding: 37px 11px 29px 10px;
+}
+
+.header-nav__count {
+    background: var(--white);
+    height: 24px;
+    width: 24px;
+    border-radius: 50%;
+    color: var(--green);
+    text-align: center;
+    margin-left: 6px;
+}
+
+.header__title {
+    color: var(--green);
+    font-size: 72px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.header__subtitle {
+    color: var(--green);
+    font-size: 36px;
+    font-weight: 400;
+    margin-top: -12px;
+}
+
+.header__info {
+    font-size: 18px;
+    margin-top: 27px;
+}
+
+.header__price {
+    background-color: var(--green75);
+    margin-top: 74px;
+    padding: 12px 90px 24px 90px;
+    /* width: max-content; */
+    font-size: 60px;
+    color: var(--white);
+    font-weight: 100;
+    background: var(--green);
+
+}
+
+/* HEADER end */
+/* =================== */
+/* PRODUCTS start */
+
+.products {
+    background-color: var(--dark); 
+    padding: 50px 0 105px 0;
+    
+}
+
+.menu {
+    margin-bottom: 20px;
+}
+
+.menu__link {
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--grey_dark);
+    margin-right: 50px;
+    transition: 0.5s;
+}
+
+.menu__link:hover {
+    color: var(--green);
+}
+
+.card {
+    margin-top: 50px;
+}
+
+.card__item {
+    height: 350px;
+    width: 100%;
+    border: 1px solid var(--grey_bd);
+}
+
+
+/* PRODUCTS end */
+/* =================== */
+/* FOOTER start */
+/* FOOTER end */
+/* =================== */
